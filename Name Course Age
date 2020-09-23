@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	
+	
+	string name,course;int age;
+	cout<<"Enter Your Name:";
+	getline(cin,name);
+	cout<<"Enter Your Age:";
+	cin>>age;
+	cout<<"Enter Your Course:";
+	cin>>course;
+	
+	cout<<"\n\n"<<name<<", a "<<course<<", is "<<age<<" Years Old.";
+
+	return 0;
+}
